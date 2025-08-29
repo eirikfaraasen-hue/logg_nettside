@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Eiriks skole</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      font-size: 20px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 8px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #34495e;
+    }
+
+    /* Main content */
+    .main {
+      flex: 1;
+      padding: 20px;
+      background-color: #ecf0f1;
+      overflow-y: auto;
+    }
+
+    .main h1 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .logg {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logg h2 {
+      margin-top: 0;
+    }
+
+    .dato {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 10px;
+    }
+
+    .tittel a:hover{
+        font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="index.html" class="tittel"><h2>Mine fag</h2></a>
+    <a href="utvikling.html">Utvikling</a>
+    <a href="brukerstøtte.html">Brukerstøtte</a>
+    <a href="driftstøtte.html">Driftstøtte</a>
+    <a href="yff.html">Yff</a>
+    <a href="safunskunnskap.html">Samfunnsfag</a>
+    <a href="norsk.html">Norsk</a>
+    <a href="gym.html">Gym</a>
+    <a target="_blank" href="CV Eirik Aukeli Faraasen.pdf">Eksempel CV</a>
+
+  </div>
+
+  <div class="main">
+    <h1>Min Skolelogg</h1>
+
+    <div class="logg">
+      <h2>Brukersøtte uke 34</h2>
+      <p class="dato">26. august 2025</p>
+      <p>i dag jobbet vi med å bli kjent med hvordan man skal behandle kunder slik at de ikke blir sure</p>
+    </div>
+    <div class="logg">
+      <h2>Brukersøtte uke 35</h2>
+      <p class="dato">29. august 2025</p>
+      <p>i dag jobbet vi med å lage denne nettsiden for å vise hva vi driver med på skolen. Dette kan være en veldig stor fordel å vise
+         fram når man eventuelt skal søke praksissplass. Vi lærte også hvordan vi for denne nettsiden live på github, det er veldig nytting å kunne et slikt vekrktøy som brukes så mye innenfor IT-bransjen.</p>
+    </div>
+  </div>
+</body>
+</html>
